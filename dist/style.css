@@ -1,0 +1,27 @@
+label {
+  display: inline-block;
+  width: 100px;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input {
+  width: 100px;
+}
+
+.btn-aide {
+  background-color: red;
+  font-size: 0.8em; /* Ajustez la taille selon vos besoins */
+  padding: 0.25rem 0.5rem; /* Ajustez le padding selon vos besoins */
+}
+
+.help-bubble {
+  position: absolute;
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 5px;
+  border-radius: 5px;
+  z-index: 1000;
+  white-space: nowrap;
+}
